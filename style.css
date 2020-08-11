@@ -1,0 +1,136 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;	
+}
+header h2{
+	background color:gray;
+	height: 2em;
+	text-align: center; 
+	line-height: 2em;
+}
+header div{
+	width: 100%;
+	text-align: center;
+}
+header ul{
+	border: 1px solid #fff;
+	background: gray;
+	width: 60%;
+	margin: 0.5em auto;
+	padding: .3em;
+}
+.a1{
+	width: 100%;
+	text-align: center;
+}
+.a1 p{
+	padding: 1em;
+	font-size: 0.8em;
+}
+.a1 img {
+	width: 100%;
+	padding: 1em;
+}
+.a2{
+	text-align: center;
+	width: 100%;
+}
+.a2 img {
+	width: 100%;
+	padding: 2em;
+}
+.a2 p{
+	padding: 1em;
+}
+.a3{
+	text-align: center;
+}
+.a3 h4{
+	padding: 1em;
+}
+footer{
+	display: flex;
+	padding-top: 1em;
+	height: 3em;
+	width: 100%;
+	line-height: 1em;
+}
+.aa{
+	width: 50%;
+	text-align: right;	
+}
+footer a{
+	width: 50%;
+	font-size: 0.6em;
+	color: black;
+	font-weight:bold;
+}
+@media screen and (min-width: 720px){
+	header{
+		display: flex;
+		width: 100%;
+
+	}
+	header h2{
+		width: 50%;
+
+		text-align: center;
+		line-height: 3em;
+	}
+	header div{
+		width: 50%;
+		display: flex;
+		margin:1em 2em;
+	}
+	header ul {
+		width: 33.33%;
+	}
+	.a1{
+		display: flex;
+		width: 100%
+	}
+	.a1 p{
+		width: 50%;
+		line-height: 4em;
+	}
+	.a1 img{
+		width: 50%;
+	}
+	.container{
+		display: flex;
+		flex-wrap: wrap;	
+	}
+	.title{
+		width: 100%;
+	}
+	.a22{
+		width: 50%;
+	}
+	footer a{
+		font-size: 1em;
+	}
+}
+@media screen and (min-width: 1024px){
+	.container{
+		display: flex;
+		flex-wrap: wrap;	
+	}
+	.title{
+		width: 100%;
+	}
+	.a22{
+		width: 33.33333%;
+	}
+	.a3{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
